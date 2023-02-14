@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    font: 3rem;
+    background-image: url(/images/alan-jones-OQsxdghBKrU-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 3rem;
+    background-color: #222;
+}
+
+header img {
+    width: 90%;
+}
+
+h3 {
+    color: white;
+    background-color: #333;
+}
+
+.wrapper {
+    width: 80vw;
+    background-color: #F0F0F0;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+ul li {
+    margin: 10px 0;
+
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    padding: 1rem 0;
+    color: white;
+    background-color: #333;
+}
+
+main p {
+    padding-top: 1rem;
+}
+
+section img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    filter: grayscale(50%) contrast(150%);
+}
+
+section a {
+    color: #333;
+    text-decoration: none;
+    font-size: 0.8rem;
+    display: block;
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+
+}
+
+.bold:nth-child(odd) {
+    font-weight: bold;
+}
